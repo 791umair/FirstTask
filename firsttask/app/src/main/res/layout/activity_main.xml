@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2DCCCBCB"
+    android:orientation="vertical">
+
+
+<com.google.android.material.imageview.ShapeableImageView
+    android:layout_width="270dp"
+    android:layout_height="270dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    app:shapeAppearanceOverlay="@style/roundedImageView"
+    android:src="@drawable/photo3"
+    />
+
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp">
+      
+      <LinearLayout
+          android:layout_width="300dp"
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:layout_marginLeft="30dp"
+          android:layout_marginTop="20dp"
+          android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:text="@string/erum_24"
+
+             android:textColor="#050505"
+             android:textSize="22sp" />
+
+
+
+
+         <LinearLayout
+             android:layout_marginTop="20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_profileicon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23px"
+                android:textColor="#070707"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="About Me" />
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="22px"
+             android:layout_marginTop="5dp"
+             android:text="About me.To choose what personal info to show when you interect with other on Google services,sign in to your account.Sign in.Privacy About"
+              />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_weight="1"
+        android:layout_marginTop="10dp"
+          android:orientation="vertical"
+          android:layout_height="wrap_content">
+         <com.google.android.material.imageview.ShapeableImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:background="#FFFFFF"
+             android:elevation="10dp"
+
+
+             app:shapeAppearanceOverlay="@style/circleImageView"
+             android:src="@drawable/ic_close" />
+
+
+
+         <de.hdodenhof.circleimageview.CircleImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:elevation="10px"
+             app:civ_circle_background_color="#FFFFFF"
+             android:src="@drawable/ic_chating"/>
+
+         <de.hdodenhof.circleimageview.CircleImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:elevation="10px"
+             app:civ_circle_background_color="#FFFFFF"
+             android:src="@drawable/ic_brush"/>
+
+      </LinearLayout>
+   </LinearLayout>
+   <View style="@style/Divider"
+       android:layout_marginTop="15dp"/>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_marginTop="5dp"
+       android:gravity="center_vertical">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:src="@drawable/ic_mood"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="22px"
+            android:layout_marginTop="2dp"
+             android:layout_marginLeft="5dp"
+             android:text="@string/single" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="5">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:src="@drawable/ic_acunit"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:textSize="22px"
+             android:layout_marginTop="2dp"
+             android:text="Ac Unit"
+             android:layout_marginStart="5dp" />
+
+      </LinearLayout>
+
+
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+
+   </LinearLayout>
+   <View style="@style/Divider"
+       android:layout_marginTop="5dp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_marginTop="10dp"
+
+       android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:src="@drawable/ic_adjust"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="22px"
+             android:layout_marginTop="2dp"
+             android:layout_marginLeft="5dp"
+             android:text="Adjust" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:src="@drawable/ic_vcamera"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:text="196cm(4'6)"
+             android:textSize="22px"
+             android:layout_marginTop="2dp"
+             android:layout_marginStart="5dp" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:src="@drawable/ic_tune"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:text="Dark"
+             android:textSize="22px"
+             android:layout_marginTop="2dp"
+             android:layout_marginStart="5dp" />
+
+      </LinearLayout>
+
+
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+
+       android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:src="@drawable/ic_fixed"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="22px"
+             android:layout_marginTop="2dp"
+             android:layout_marginLeft="5dp"
+             android:text="Bacherlors" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="5">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_mic"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:text="@string/niazi"
+             android:textSize="22px"
+             android:layout_marginTop="2dp"
+             android:layout_marginStart="5dp" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+
+             android:layout_marginStart="5dp" />
+
+      </LinearLayout>
+
+
+
+
+
+   </LinearLayout>
+
+</LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       android:layout_marginTop="25dp">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:src="@drawable/ic_home" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_report"
+             />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1">
+         <ImageView
+             android:id="@+id/msg"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_baseline_email_24"
+             />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_setting"
+             />
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+</LinearLayout>
